@@ -1,0 +1,17 @@
+h1 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 0px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: light;
+  font-family: "poppins";
+  line-height: 0;
+  text-align: center;
+}
