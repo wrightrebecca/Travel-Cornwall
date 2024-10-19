@@ -1,17 +1,67 @@
+.container {
+}
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  padding: 80px;
+  max-width: 1200px;
+  text-align: center;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 110px;
-  line-height: 0px;
-  text-align: center;
+  font-size: 120px;
+  line-height: 1;
   padding-bottom: 20px;
+  color: white;
+  margin: 0;
 }
 
 h2 {
   font-size: 25px;
-  font-weight: light;
+  font-weight: 300;
   font-family: "poppins";
-  line-height: 0;
+  line-height: 1.2;
+
+  color: white;
+  margin: 0;
+}
+.hero a {
   text-align: center;
+  padding: 14px 28px;
+  background: #ffffff;
+  text-decoration: none;
+  font-family: "poppins";
+  display: inline-block;
+  margin-top: 50px;
+  color: black;
+}
+.footer p {
+  padding-top: 50px;
+  font-family: "poppins";
+  font-size: 12px;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    padding: 40px;
+  }
+  h1 {
+    font-size: 70px;
+    line-height: 0.7;
+  }
+  h2 {
+    font-size: 19px;
+    line-height: 1;
+  }
+  .hero a {
+    padding: 10px 18px;
+    font-size: 15px;
+  }
 }
