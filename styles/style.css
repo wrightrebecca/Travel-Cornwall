@@ -22,7 +22,7 @@ h1 {
 
 h2 {
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 500;
   font-family: "poppins";
   line-height: 1.2;
   color: white;
@@ -60,6 +60,16 @@ main p {
 .main-image {
   width: 100%;
   height: auto;
+}
+.secondary-section {
+  max-width: 900px;
+  background-color: #f2efef;
+  margin: 0 auto;
+  padding: 60px 0px;
+  text-align: center;
+}
+.secondary-section h2 {
+  color: black;
 }
 .boxes {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
