@@ -18,6 +18,7 @@ h1 {
   padding-bottom: 20px;
   color: white;
   margin: 0;
+  letter-spacing: 3px;
 }
 
 h2 {
@@ -70,6 +71,16 @@ p {
 }
 .secondary-section h2 {
   color: black;
+}
+.card-header.grid {
+  grid-gap: 0;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.grid-2-columns {
+  padding: 0;
 }
 .grid-3-columns {
   font-family: "poppins";
@@ -162,5 +173,11 @@ h5 {
 
   .boxes {
     grid-template-columns: 1fr;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 19/9;
   }
 }
