@@ -83,7 +83,7 @@ p {
 .grid-2-columns {
   padding: 0;
 }
-.grid-3-columns {
+.cards {
   font-family: "poppins";
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
@@ -121,18 +121,18 @@ h5 {
   text-decoration: none;
 }
 .third-section {
-  max-width: 900px;
   margin: 0 auto;
+  max-width: 900px;
 }
 .third-section h2 {
   color: black;
   padding-top: 60px;
   text-align: center;
 }
-.instagram-embeds.grid-3-columns {
+.embeds {
   display: grid;
-  margin: 0 auto;
-  width: 900px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
 }
 .boxes {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
