@@ -122,7 +122,6 @@ h5 {
 }
 .third-section {
   margin: 0 auto;
-  max-width: 900px;
 }
 .third-section h2 {
   color: black;
@@ -133,7 +132,10 @@ h5 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
+  margin-bottom: 50px;
+  grid-gap: 55px;
 }
+
 .boxes {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../images/st-ives.jpg");
