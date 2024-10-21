@@ -126,14 +126,15 @@ h5 {
 .third-section h2 {
   color: black;
   padding-top: 60px;
+  padding-bottom: 25px;
   text-align: center;
 }
 .embeds {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
-  margin-bottom: 50px;
   grid-gap: 55px;
+  padding: 20px 0;
 }
 
 .boxes {
@@ -149,6 +150,7 @@ h5 {
   color: white;
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  margin-top: 100px;
 }
 .boxes p {
   opacity: 75%;
